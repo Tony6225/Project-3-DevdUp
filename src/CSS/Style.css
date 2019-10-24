@@ -1,0 +1,379 @@
+* {
+    font-family: 'Saira', sans-serif;
+    /* letter-spacing: 1px; */
+}
+
+body {
+    background-image: url('../images/bg4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.centered {
+    position: fixed;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #494949;
+  }
+
+.logo {
+    width: 800px;
+}
+
+.autotype, .typer {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 400;
+}
+
+h3 {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 2.8rem;
+}
+
+.button-block {
+    text-align: center;
+}
+
+.learnMore {
+    display: inline-block;
+    margin-top: 20px;
+    width: 700px;
+    padding: 5px;
+    font-weight: bold;
+    height: 50px;
+    border-width: 2px;
+    background-color: #17a2b8;
+    font-size: 20px;
+}
+
+.getStarted {
+    width: 400px;
+    padding: 5px;
+    font-weight: bold;
+    height: 50px;
+    border-width: 2px;
+    background-color: #17a2b8;
+    font-size: 20px;
+}
+
+.editProfile {
+    width: 250px;
+    padding: 5px;
+    font-weight: bold;
+    height: 50px;
+    border-width: 2px;
+    background-color: #17a2b8;
+    font-size: 20px;
+}
+
+
+.login {
+    display: inline-block;
+    margin-top: 20px;
+    width: 390px;
+    padding: 5px;
+    font-weight: bold;
+    height: 50px;
+    border-width: 2px;
+    background-color: #17a2b8;
+    font-size: 20px;
+}
+
+.btn {
+    background-color: #17a2b8;
+    color: #fff;
+}
+
+.btn-outline-info:hover {
+    color: #17a2b8;
+    background-color: #30eed5;
+    border-color: #17a2b8;
+}
+
+
+
+.regContainer {
+    margin: 5% auto;
+    width: auto;
+    height: auto;
+    transform: translate(0%, 0%);
+}
+
+.cardHeader {
+    font-weight: 700;
+    font-size: 30px;
+    padding-left: 35px;
+    color: white;
+    background-image: linear-gradient(to bottom right, #17a2b8 , #30eed5);
+    /* background-color: #17a2b8; */
+}
+
+.text-info {
+    /* height: 675px; */
+    padding: 35px;
+}
+
+.cardTitle {
+    color: rgb(131, 131, 131);
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.cardBody {
+    color: rgb(73, 73, 73);
+    overflow: none;
+    margin-top: -20px;
+}
+
+.regForm {
+    width: 500px;
+    margin-top: -25px;
+    float: left;
+    padding-right: 45px;
+}
+
+label {
+    color: #17a2b8;
+    font-weight: 500;
+}
+
+.grey-text {
+    margin-top: 6px;
+    color: #17a2b8;
+    font-weight: 500;
+}
+
+.regBtn {
+    margin-top: 20px;
+    float: right;
+    background-clip: #17a2b8;
+    color: #fff;
+}
+
+.cardBtn {
+    background-clip: #17a2b8;
+    color: #fff;
+}
+
+
+input {
+    margin-top: -6px;
+}
+
+select {
+    margin-top: -6px;
+}
+
+.definitions {
+    margin-top: -45px;
+}
+
+.devDef {
+    font-size: 25px;
+    color: rgb(131, 131, 131);
+}
+
+.empDef {
+    font-size: 25px;
+    color: rgb(131, 131, 131);
+}
+
+.radiobtn {
+    margin-right: 20px;
+}
+
+.radioBtnReg {
+    margin-right: 10px;
+}
+
+.question {
+    color: #17a2b8;
+}
+
+.exp {
+    margin-top: 10px;
+}
+
+.yesNoBtn {
+    width: 150px;
+    margin-right: 20px;
+}
+
+.questionBlockOdd {
+    padding: 25px;
+    background-color: #f0f0f0
+}
+
+.questionBlockEven {
+    padding: 25px;
+}
+
+.form-control-sm {
+    margin-top: 10px;
+    width: 150px;
+}
+
+.horizontal-rule {
+    border-bottom: 1px solid #17a2b8;
+}
+
+.continueBtn {
+    margin-top: 35px;
+    float: right;
+}
+
+.loginTitle {
+    color: rgb(131, 131, 131);
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.navBar {
+    background-image: linear-gradient(to bottom right, #17a2b8 , #30eed5);
+    height: 85px;
+    padding: 35px 100px;
+    box-shadow:     0px 4px 3px -1px #b0b0b0;
+}
+
+.navlink {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.navlogo {
+    width: 40%;
+}
+
+.createJobBtn {
+    display: inline-block;
+    width: 240px;
+    padding: 5px;
+    font-weight: bold;
+    height: 50px;
+    border-width: 2px;
+    background-color: white;
+    font-size: 20px;
+}
+
+.tableJobs {
+    padding-top: 5px;
+}
+
+th {
+    color: #17a2b8;
+    justify-content: space-evenly;
+}
+
+tr {
+    justify-content: space-around;
+}
+
+a:link, a:visited {
+    color: #fff;
+}
+
+.jumbotron {
+    padding: 0px;
+}
+
+.jumbohdr {
+    font-size: 104px;
+    font-weight: 700;
+}
+
+.jumboTxt {
+    font-size: 30px;
+}
+
+.jumbobackground {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.aboutPic {
+    width: 40%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.aboutParagraph {
+    font-size: 20px;
+    color: #888888;
+}
+
+.subtext {
+    font-size: 20px;
+    color: #888888;
+}
+
+.teamCardText {
+    text-align: center;
+}
+
+.teamBlock {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    color: #fff;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, #17a2b8 , #30eed5);
+    padding-top: 3px;
+    padding-bottom: 3px;
+    height: 100px;
+    margin-top: 50px;
+  }
+
+  .footerText {
+      margin-top: 40px;
+  }
+
+  .aboutCard {
+    margin-top: 25px;
+  }
+
+  .twoCards {
+    margin-top: 25px;
+  }
+
+  .teamCard {
+    margin-top: 25px;
+  }
+
+  .nameTag {
+    color: #17a2b8;
+    font-weight: 700;
+  }
+
+  .jobsJumboText {
+      padding: 35px;
+  }
+
+  .jumboTron2 {
+      height: auto;
+      background-image: linear-gradient(to bottom, #dddddd , #b8b8b8);
+  }
+
+  .display-4 {
+    color: #fff;
+    font-weight: 700;
+  }
+
+  .jobCard1 {
+      padding-top: 220px;
+  }
